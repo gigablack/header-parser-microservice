@@ -1,0 +1,27 @@
+{
+  "name": "header-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gigablack/header-parser-microservice.git"
+  },
+  "author": "Gustavo Bethelmy <tenchu96@gmail.com> (https://github.com/gigablack)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gigablack/header-parser-microservice/issues"
+  },
+  "homepage": "https://github.com/gigablack/header-parser-microservice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
