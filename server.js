@@ -10,7 +10,7 @@ app.get('/',(req,res)=>{
     res.json({status: 'online'})
 })
 
-app.get('/whoami',(req,res)=>{
+app.get('/api/whoami',(req,res)=>{
     res.json({
         ipaddress: req.ip,
         language: req.acceptsLanguages(),
